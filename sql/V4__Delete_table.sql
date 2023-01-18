@@ -1,0 +1,1 @@
+-- DROP TABLE sri_flyway.test;
