@@ -4,7 +4,7 @@
 
 1. Clone the repo
 2. modify flyway.conf with 
-   1. [flyway.url](https://flywaydb.org/documentation/configuration/parameters/url)
+   1. [flyway.url](https://flywaydb.org/documentation/configuration/parameters/url) The jdbc url. Make sure you also provide `ConnCatalog` and `ConnSchema`.
    2. [flyway.user](https://flywaydb.org/documentation/configuration/parameters/user) (this should be token e.g flyway.user=token)
    3. [flyway.password](https://flywaydb.org/documentation/configuration/parameters/password) (the value of the token e.g flyway.password=dapi)
 3. You can click on the links to see how to provide them via env variables or arg flags.
