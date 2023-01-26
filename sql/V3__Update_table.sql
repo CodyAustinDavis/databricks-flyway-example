@@ -1,3 +1,4 @@
-CREATE TABLE test (s1 string)
-USING DELTA;
+ALTER TABLE PERSON
+ADD COLUMNS (unique_id STRING DEFAULT uuid(),
+update_timestamp TIMESTAMP DEFAULT current_timestamp());
 
